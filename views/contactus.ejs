@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" type="text/css" href="./css/contactus.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="/image/Dinhatta Logo.png" type="image/x-icon">
+</head>
+   
+    
+
+   
+    <!-- nav -->
+  <body style="margin-left: 0px;margin-right: 0px;padding-top: 0px;padding-left: 0px;padding-bottom: 0px;padding-right: 0px;margin-top: 0px;">
+ <nav style="top: 0px;height: 63px;">
+        <div class="logo">
+          <a href="/">  <img src="image/Dinhatta Logo.png" alt="Logo Image"> </a>
+        </div>
+        <div class="hamburger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+        <ul class="nav-links">
+             <li><a href="/">Home</a></li>
+            <li><a href="/ourwork">Our Works</a></li>
+            <li><a href="/about">About Us</a></li>
+            <li><a href="/contact">Contact Us</a></li>
+            <li><a href="/vol">Volunteer</a></li>
+            
+            <li><a class="join-button" href="/donate">Donate Us</a></li>
+        </ul>
+    </nav>
+          <!-- column -->
+          <section>
+          <div style="height: 60px;"><h2 style="text-align: center; margin-top: 120px;color: #060606">Contact Us</h2>
+          <hr class="w-25 mx-auto pt-5" style=" width: 380px; display: block; margin-right: auto;margin-left: auto;">
+          <br>
+          </div>    
+          </section>
+
+<div class="clearfix" style="margin-top: 40px;">
+
+  <img class="img2" src="image/ngo6.jpg" width="170" height="220">
+  <div class="note">
+ <section>
+    
+ <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28655.767319317914!2d89.45715741548786!3d26.132845938823312!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39e2e153640e025d%3A0xe5c78188824ba4c8!2sDinhata%2C%20West%20Bengal%20736135!5e0!3m2!1sen!2sin!4v1615177473449!5m2!1sen!2sin" width="100%" height="350" style="border:0; margin-top: 35px;" allowfullscreen="" loading="lazy"></iframe>    -->
+<div class="container5">
+    <form action="/contactus" method="post">
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+    <input type="text" id="lname" name="email" placeholder="Your email id..">
+    <input type="number" id="number" name="number" placeholder="Your Mobile No..">
+
+    <textarea id="subject" name="subject" placeholder="Your Occupation.." style="height:200px"></textarea>
+    <button type="submit" value="Submit" style="margin-left: 140px;">Submit</button>
+  </form>
+</div>
+</section>
+</div>
+</div>
+
+          
+
+
+<br>
+<br>
+
+<!-- FOOTER START -->
+<footer class="footer-section">
+        <div class="container">
+            <div class="footer-cta pt-5 pb-5">
+                
+            <div class="footer-content pt-5 pb-5">
+                <div class="row">
+                    <div class="col-xl-4 col-lg-4 mb-50">
+                        <div class="footer-widget">
+                            <div class="footer-logo">
+                                <a href="/"><img src="image/Dinhatta Logo.png" class="img-fluid" alt="logo"></a>
+                            </div>
+                            
+
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
+                        <div class="footer-widget">
+                            
+                            <ul>
+                                <li><a href="/">Home</a></li>
+                                <li><a href="/ourwork">Our Work</a></li>
+                                <li><a href="/organisationprofile">Organisation Profile</a></li>
+                                <li><a href="/About">About Us</a></li>
+                                <li><a href="/termsandcondition">Terms & Condition</a></li>
+                                <li><a href="/contactus">Contact Us</a></li>
+                                <li><a href="/vol">Volunteer</a></li>
+                                <li><a href="/donate">Donate Us</a></li>
+                               
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6 mb-50">
+                        <div class="footer-widget">
+                           
+                            <div class="subscribe-form">
+                                <form action="#">
+                                   
+                                    <button><i class="fab fa-telegram-plane"></i></button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-6 col-lg-6 text-center text-lg-left">
+                        <div class="copyright-text">
+                            <p>Copyright &copy; 2021, All Right Reserved <a href="https://www.bluewebsurfer.com/">BlueWebSurfer</a></p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+<!-- END OF FOOTER -->
+
+
+
+<script>const hamburger = document.querySelector(".hamburger");
+const navLinks = document.querySelector(".nav-links");
+const links = document.querySelectorAll(".nav-links li");
+
+hamburger.addEventListener('click', ()=>{
+   //Animate Links
+    navLinks.classList.toggle("open");
+    links.forEach(link => {
+        link.classList.toggle("fade");
+    });
+
+    //Hamburger Animation
+    hamburger.classList.toggle("toggle");
+});
+</script>
+  </body>
+</html>
